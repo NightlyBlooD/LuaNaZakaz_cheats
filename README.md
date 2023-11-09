@@ -445,7 +445,7 @@
     print("Размер модели:", size)
     ```
 
-- **GetEntry** - Время восстановления способности
+- **GetEntry** - Получить номер объекта
     ```lua 
     entry = Object.GetEntry(objectId) -- (NUMBER)
     -- Example:

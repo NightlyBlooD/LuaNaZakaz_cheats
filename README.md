@@ -1067,7 +1067,7 @@
         end
     end
     ```
-- **GetSpellInfo** - Получить информацию об энчантах на надетом предмете
+- **GetSpellInfo** - Получить информацию о заклинание у предмета.
     ```lua
     spell_id, spell_name, spell_rank, spell_subtext = Item.GetSpellInfo(itemId or itemName) -- (NUMBER), (STRING), (STRING), (STRING)
     --Example:
